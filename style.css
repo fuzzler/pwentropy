@@ -1,0 +1,90 @@
+body {
+    background-color: #0A012B;
+    color: rgb(212, 235, 243);
+}
+
+a {
+    color: rgb(212, 235, 243);
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: rgb(236, 17, 171);
+}
+
+.pulsante {
+    height: 45px;
+    width: 135px;
+    background-color: red;
+    color: rgb(212, 235, 243);
+    font-size: 25px;
+    font-weight: bolder;
+    border: 2px solid rgb(78, 0, 46);
+}
+
+.pulsante:hover {
+    background-color: rgb(212, 235, 243);;
+    color: red;
+    cursor: pointer;
+}
+
+
+.titolo {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45;
+    text-shadow: 1px 1px 1px rgb(223, 14, 223);
+}
+
+.titolog {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 65;
+}
+
+.txtcenter {
+    text-align: center;    
+}
+
+.txtbolder {
+    font-weight: bolder;
+}
+
+.err_mess {
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+}
+
+.valid_mess {
+    text-align: center;
+    font-weight: bolder;
+    color: green;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.tabella {
+    float: center;
+    margin: 0 auto;
+}
+
+.marginzero {
+    margin: 0 auto;
+}
+
+
+.floatr {
+    float: right;
+}
+
+.cats {
+    background-image: linear-gradient(to right, rgb(2, 58, 2) , yellow);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;;
+}
