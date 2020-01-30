@@ -17,12 +17,13 @@ a:hover {
 
 .pulsante {
     height: 45px;
-    width: 135px;
+    width: 145px;
     background-color: red;
     color: rgb(212, 235, 243);
     font-size: 25px;
     font-weight: bolder;
     border: 2px solid rgb(78, 0, 46);
+    border-radius: 15px;
 }
 
 .pulsante:hover {
@@ -43,6 +44,7 @@ a:hover {
     text-align: center;
     font-weight: bolder;
     font-size: 65;
+    text-shadow: 2px 2px 2px rgb(223, 14, 223);
 }
 
 .txtcenter {
@@ -59,11 +61,6 @@ a:hover {
     color: red;
 }
 
-.valid_mess {
-    text-align: center;
-    font-weight: bolder;
-    color: green;
-}
 
 .link {
     text-decoration: underline;
@@ -81,10 +78,4 @@ a:hover {
 
 .floatr {
     float: right;
-}
-
-.cats {
-    background-image: linear-gradient(to right, rgb(2, 58, 2) , yellow);
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;;
 }

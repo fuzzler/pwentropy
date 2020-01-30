@@ -35,17 +35,17 @@ require_once 'template.php';
 
     <br><br>
         <div class="txtcenter">
-            <span class="txtbolder txtcenter">Inserisci la PW di cui vuoi analizzare l'Entropia</span>
+            <span class="txtbolder txtcenter">Inserisci la PW di cui vuoi calcolare l'Entropia</span>
         </div>
         <br>
         <div class="form-group">
             <form action="result.php" method="POST">
 
                 <span style="text-align: center; font-weight:bolder"> Pà$$vv0rd:</span>
-                <input class="form-control" type="text" name="pw" placeholder="Inserisci QUI la PW" required><br>
+                <input class="form-control" type="password" name="pw" placeholder="Inserisci QUI la PW" required><br>
 
                 <div style="text-align: center">
-                    <input style="margin: 0 auto" type="submit" name="anal" value="Analizza" class="pulsante">
+                    <input style="margin: 0 auto" type="submit" name="anal" value="CALCOLA" class="pulsante">
                 </div>
             </form>
         </div>
