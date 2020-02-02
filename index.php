@@ -13,6 +13,7 @@ $pagename = "Indecks"; // Nome della pagina (richiesto nel template)
 // Requirements
 require_once 'template.php';
 
+
 ?>
 <div class="container-fluid">
 
@@ -41,8 +42,14 @@ require_once 'template.php';
         <div class="form-group">
             <form action="result.php" method="POST">
 
-                <span style="text-align: center; font-weight:bolder"> Pà$$vv0rd:</span>
-                <input class="form-control" type="password" name="pw" placeholder="Inserisci QUI la PW" required><br>
+            <?php
+                if(isset($_SESSION['err_pw_short'])) {
+                    echo "<div class=\"txtcenter\"><span class=\"err_mess\">";
+                    echo $_SESSION['err_pw_short']."</span></div>";
+                }
+
+            ?>
+                <input class="form-control" type="password" name="pw" placeholder="Inserisci QUI la Pà$5vv0rd" required><br>
 
                 <div style="text-align: center">
                     <input style="margin: 0 auto" type="submit" name="anal" value="CALCOLA" class="pulsante">
@@ -60,7 +67,7 @@ require_once 'template.php';
             <br>
             <br>
             <br>
-            <a href="../index.php">TORNA INDIETRO</a>
+            <a href="../reset.php">TORNA INDIETRO</a>
         </div>
         <div class="col-8"></div>
         <div class="col-2"></div>
